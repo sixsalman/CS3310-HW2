@@ -288,7 +288,7 @@ public class Main {
      */
     private static List findGeneticPalindromes(List toFindFrom, int indexInMain) {
         if (toFindFrom == null || indexInMain < 0) {
-            System.out.println("Unexpected arguments passed to findGeneticPalindrom Method\n" +
+            System.out.println("Unexpected arguments passed to findGeneticPalindromes Method\n" +
                     "The program will therefore exit");
             System.exit(4);
         }
