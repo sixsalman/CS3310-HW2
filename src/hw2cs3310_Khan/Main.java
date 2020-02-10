@@ -259,7 +259,7 @@ public class Main {
     private static boolean isGeneticPalindrome(List toCheck, int first, int last) {
         if(((first + last + 1) % 2 != 0) || last < first)
             return false;
-        for(int i = first; i <= last; i++) {
+        for(int i = first; i <= ((first + last) / 2); i++) {
             if(toCheck.getNth(i) == 'A') {
                 if (!(toCheck.getNth(last - i + first) == 'T' || toCheck.getNth(last - i + first) == 'U'))
                     return false;
