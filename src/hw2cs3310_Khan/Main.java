@@ -284,7 +284,7 @@ public class Main {
      * Finds all genetic palindromic subsequences of length [4, 17] in the received list
      * @param toFindFrom receives the list from which genetic palindromes are to be found
      * @param indexInMain receives index of gSeqs array which is received in toFindFrom
-     * @return a list containg all genetic palindromic subsequences of length [4, 17] separated by '-' (dashes)
+     * @return a list containing all genetic palindromic subsequences of length [4, 17] separated by '-' (dashes)
      */
     private static List findGeneticPalindromes(List toFindFrom, int indexInMain) {
         if (toFindFrom == null || indexInMain < 0) {
