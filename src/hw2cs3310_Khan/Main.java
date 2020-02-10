@@ -421,7 +421,6 @@ public class Main {
 
         int dashesInToChkIn = 0;
         boolean match;
-        char inToMtchWith;
         StringBuilder chunkBuilder = new StringBuilder("");
         String chunk;
 
