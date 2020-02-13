@@ -144,10 +144,11 @@ public class Main {
 
                 enTime = System.nanoTime();
 
-                if(foundPlndrms[i].length() == 0 ||
-                        (isGeneticPalindrome(gSeqs[i], 0, gSeqs[i].length() - 1) &&
-                                foundPlndrms[i].length() == gSeqs[i].length())) {
+                if(foundPlndrms[i].length() == 0) {
                     System.out.print("\nThis sequence does not contain any genetic palindromes.");
+                } else if(isGeneticPalindrome(gSeqs[i], 0, gSeqs[i].length() - 1) &&
+                        foundPlndrms[i].length() == gSeqs[i].length()) {
+                    System.out.println("\nThis sequence does not contain any genetic palindromes.");
                 } else {
                     System.out.print("\n");
                 }
